@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyMapp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="municipio">municipio</string>
+    <string name="departamento">departamento</string>
+    <string name="tipo">tipo</string>
+    <string name="nombre">nombre</string>
+    <string name="direccion">direccion</string>
+    <string name="telefono">telefono</string>
+    <string name="mapa">ver en el mapa</string>
+    <string name="textView">Presentado Por</string>
+    <string name="uno">Acerca de</string>
+    <string name="dos">Regresar</string>
+    <string name="echo">Hecho por</string>
+    <string name="textDes3">Estudiante ING Sistemas</string>
+    <string name="close">Salir</string>
+    <string name="title_activity_mapas">Map</string>
+</resources>

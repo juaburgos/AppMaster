@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/acerca"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_shadow_start_color"
+    tools:context="com.example.juanpablo.mymapp.Main2Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        app:srcCompat="@drawable/imgacerca" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/echo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/echo"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageDes2"
+                        android:layout_width="110dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/cuellar" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDes2"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="ANDRES CUELLAR"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes3"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="@string/textDes3"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDes4"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="ancuellar@umariana.edu.co"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/burgos" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="269dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="JUAN PABLO BURGOS"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="@string/textDes3"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:text="juaburgos@umariana.edu.co"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/close" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

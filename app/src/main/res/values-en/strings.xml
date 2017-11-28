@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyMapp</string>
+    <string name="departamento">state</string>
+    <string name="direccion">location</string>
+    <string name="mapa">view on map</string>
+    <string name="municipio">municipality</string>
+    <string name="nombre">name</string>
+    <string name="telefono">number</string>
+    <string name="textView">Present By</string>
+    <string name="tipo">type</string>
+    <string name="uno">" About"</string>
+    <string name="dos">Return</string>
+    <string name="echo">Made By</string>
+    <string name="textDes3">Student ING Systems</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="close">Exit</string>
+</resources>
